@@ -6,7 +6,7 @@ of 2D Gaussians and Superquadrics**
 
 
 ## 📌 Project Links  
-- ​[Project Page](https://zhirui-gao.github.io/PoseProbe.github.io/)
+- ​[Project Page](http://part.gs.com/)
 - ​[Arxiv Paper](https://arxiv.org/abs/2408.10789) 
 
 
