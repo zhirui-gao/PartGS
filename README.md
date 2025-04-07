@@ -3,7 +3,7 @@
 of 2D Gaussians and Superquadrics**  
 
 
-🚀 ​**Official implementation of PartGS** using <span style="color: #FFC300;">**PyTorch**</span>.   
+🚀 ​**Official repo of PartGS** using <span style="color: #FFC300;">**PyTorch**</span>.   
 
 
 
