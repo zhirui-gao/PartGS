@@ -11,7 +11,7 @@ of 2D Gaussians and Superquadrics**
 
 
 ## 📌 Project Links  
-- ​[Project Page](http://part.gs.com/)
+- ​[Project Page](https://zhirui-gao.github.io/partgs.github.io/)
 - ​[Arxiv Paper](https://arxiv.org/abs/2408.10789) 
 
 
