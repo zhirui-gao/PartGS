@@ -7,8 +7,12 @@ of 2D Gaussians and Superquadrics**
 
 
 
-✨ ​**Code will be released!** 
+✨ ​**Code will be released soon! (before July 15th)** 
 
+
+## Update:
+
+Our paper has been accepted by ICCV2025!
 
 ## 📌 Project Links  
 - ​[Project Page](https://zhirui-gao.github.io/partgs.github.io/)
