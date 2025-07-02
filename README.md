@@ -8,8 +8,8 @@ of 2D Gaussians and Superquadrics
 [Zhirui Gao](https://scholar.google.com/citations?user=IqtwGzYAAAAJ&hl=zh-CN), [Renjiao Yi](https://renjiaoyi.github.io/), [Huang Yuhang](https://scholar.google.com/citations?user=OAULSygAAAAJ&hl=zh-CN), [Wei Chen](https://openreview.net/profile?id=~Wei_Chen35),  [Chenyang Zhu](https://www.zhuchenyang.net/), [Kai Xu](https://kevinkaixu.net/)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2402.04717-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2408.10789)
-[![Project page](https://img.shields.io/badge/Project-Page-brightgreen)](https://arxiv.org/abs/2408.10789)
-[![Dataset](https://img.shields.io/badge/HF-Dataset-yellow)](https://arxiv.org/abs/2408.10789)
+[![Project page](https://img.shields.io/badge/Project-Page-brightgreen)](https://zhirui-gao.github.io/PartGS/)
+[![Dataset](https://img.shields.io/badge/HF-Dataset-yellow)](https://zhirui-gao.github.io/PartGS/)
 
 <p>
     <img width="" alt="romm0" src="./assets/scan63.gif", style="width: 80%;">
