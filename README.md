@@ -16,7 +16,7 @@ of 2D Gaussians and Superquadrics
 </p>
 
 <p align="center">
-<span style="font-size: 16px">
+<span style="font-size: 12px">
 PartGS enables both the block-level and point-
 level part-aware reconstructions, <br> preserving both part decomposition and reconstruction precision.
 </span>
@@ -31,8 +31,7 @@ level part-aware reconstructions, <br> preserving both part decomposition and re
 
 This repository contains the official implementation of the paper: [Self-supervised Learning of Hybrid Part-aware 3D Representation
 of 2D Gaussians and Superquadrics](https://arxiv.org/abs/2408.10789), which is accepted to ICCV 2025.
-PartGS is a self-supervised part-aware reconstruction frame-
-work that integrates 2D Gaussians and superquadrics to
+PartGS is a self-supervised part-aware reconstruction framework that integrates 2D Gaussians and superquadrics to
 parse objects and scenes into an interpretable decomposition, leveraging multi-view image inputs to uncover 3D structural
 information
 
