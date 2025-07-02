@@ -16,9 +16,9 @@ of 2D Gaussians and Superquadrics
 </p>
 
 <p align="center">
-<span style="font-size: 12px">
+<span style="font-size: 10 px">
 PartGS enables both the block-level and point-
-level part-aware reconstructions, <br> preserving both part decomposition and reconstruction precision.
+level part-aware reconstructions,  preserving both part decomposition and reconstruction precision.
 </span>
 </p>
 
