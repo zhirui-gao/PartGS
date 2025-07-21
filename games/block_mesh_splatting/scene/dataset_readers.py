@@ -144,7 +144,7 @@ def readNeRFSyntheticBlockMeshInfo(
         vertices, faces = blocks.get_mesh_verts_faces(i)
         sq_eta = torch.asin(vertices[..., 1])
         sq_omega = torch.atan2(vertices[..., 0], vertices[..., 2])
-        S_init, R_4d, translation = fit_superquadric(cluster_points, sq_eta, sq_omega, scale_min, ratio_block_scene)
+        S_init, R_4d, translation = fit_superquadric(cluster_points, ratio_block_scene)
         translation = translation + (torch.randn_like(translation) / 4).clamp(-0.5, 0.5) * range_T
         occupancy = torch.ones((1, 1), device="cuda")
         vertices = vertices * ratio_block_scene
@@ -339,7 +339,7 @@ def readNeuSDTUBlockInfo(
         vertices, faces = blocks.get_mesh_verts_faces(i)
         sq_eta = torch.asin(vertices[..., 1])
         sq_omega = torch.atan2(vertices[..., 0], vertices[..., 2])
-        S_init, R_4d, translation = fit_superquadric(cluster_points, sq_eta, sq_omega, scale_min, ratio_block_scene)
+        S_init, R_4d, translation = fit_superquadric(cluster_points, ratio_block_scene)
         translation = translation + (torch.randn_like(translation) / 4).clamp(-0.5, 0.5) * range_T
 
         occupancy = torch.ones((1, 1), device="cuda")
@@ -499,7 +499,7 @@ def readColmapBlockMeshInfo(
         vertices, faces = blocks.get_mesh_verts_faces(i)
         sq_eta = torch.asin(vertices[..., 1])
         sq_omega = torch.atan2(vertices[..., 0], vertices[..., 2])
-        S_init, R_4d, translation = fit_superquadric(cluster_points, sq_eta, sq_omega,scale_min, ratio_block_scene)
+        S_init, R_4d, translation = fit_superquadric(cluster_points, ratio_block_scene)
         translation = translation + (torch.randn_like(translation)/4).clamp(-0.5, 0.5) * range_T
         occupancy = torch.ones((1, 1), device="cuda")
         vertices = vertices * ratio_block_scene
@@ -611,7 +611,7 @@ def readReplicaBlockMeshInfo(path, images, eval, num_splats=[100]*8, ratio_block
         vertices, faces = blocks.get_mesh_verts_faces(i)
         sq_eta = torch.asin(vertices[..., 1])
         sq_omega = torch.atan2(vertices[..., 0], vertices[..., 2])
-        S_init, R_4d, translation = fit_superquadric(cluster_points, sq_eta, sq_omega,scale_min, ratio_block_scene)
+        S_init, R_4d, translation = fit_superquadric(cluster_points, ratio_block_scene)
         occupancy = torch.ones((1, 1), device="cuda")
         vertices = vertices * ratio_block_scene
         triangles = vertices[faces]
