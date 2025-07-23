@@ -32,7 +32,7 @@ level part-aware reconstructions,  preserving both part decomposition and recons
 
 </h4>
 
-This repository contains the official implementation of the paper: [Self-supervised Learning of Hybrid Part-aware 3D Representation
+This repository contains the official implementation of the paper: [Self-supervised Learning of Hybrid Part-aware 3D Representations
 of 2D Gaussians and Superquadrics](https://arxiv.org/abs/2408.10789), which is accepted to ICCV 2025.
 PartGS is a self-supervised part-aware reconstruction framework that integrates 2D Gaussians and superquadrics to
 parse objects and scenes into an interpretable decomposition, leveraging multi-view image inputs to uncover 3D structural
@@ -204,7 +204,7 @@ This project is built upon [GaMeS](https://github.com/waczjoan/gaussian-mesh-spl
 If you find our work helpful, please consider citing:
 ```bibtex
 @misc{gao2025selfsupervisedlearninghybridpartaware,
-      title={Self-supervised Learning of Hybrid Part-aware 3D Representation of 2D Gaussians and Superquadrics}, 
+      title={Self-supervised Learning of Hybrid Part-aware 3D Representations of 2D Gaussians and Superquadrics}, 
       author={Zhirui Gao and Renjiao Yi and Yuhang Huang and Wei Chen and Chenyang Zhu and Kai Xu},
       year={2025},
       eprint={2408.10789},
