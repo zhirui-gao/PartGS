@@ -58,6 +58,7 @@ You may also be interested in our other works:
 
 
 ## 📢 News
+- **2025-08-21** Release the ShapeNet dataset.
 - **2025-06-27**: The paper is available on arXiv.
 - **2025-06-26**: PartGS is accepted to ICCV 2025.
 
@@ -65,7 +66,7 @@ You may also be interested in our other works:
 ## 📋 TODO
 
 - [x] **2025-07-10**: Release the training and evaluation code.
-- [ ] Release the ShapeNet dataset and training configure
+- [X] Release the ShapeNet dataset and training configure
 
 
 ## 🔧 Installation
@@ -157,9 +158,9 @@ For reconstruction on DTU dataset, we used the same processed dataset as 2DGS, p
 
 For reconstrction on [BlendedMVS](https://github.com/YoYo000/BlendedMVS), it can download from [here](https://www.dropbox.com/scl/fo/um3wj3ctiuoottbfmqmgb/ABZRltszDvWHJ824UL6DHw0?rlkey=3vjok0aivnoiaf8z5j6w05k92&e=1&dl=0), privoided by [Neus](https://github.com/Totoro97/NeuS?tab=readme-ov-file).
 
-### ShapeNet and Self-capture dataset
-To be released.
-
+### ShapeNet  dataset
+We rendered four ShapeNet categories—gun, chair, desk, and airplane—selecting 15 instances per category. For each instance,  we provide the ground-truth OBJ mesh for evaluation and 100 rendered images, split evenly into 50 training and 50 test views.
+You can download them from [Baidu Disk](https://pan.baidu.com/s/1rKaKSYjGL23fspb78u_JbQ?pwd=ygmv)
 
 ## 👀 Visual Results
 
