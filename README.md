@@ -160,7 +160,7 @@ For reconstrction on [BlendedMVS](https://github.com/YoYo000/BlendedMVS), it can
 
 ### ShapeNet  dataset
 We rendered four ShapeNet categories—gun, chair, desk, and airplane—selecting 15 instances per category. For each instance,  we provide the ground-truth OBJ mesh for evaluation and 100 rendered images, split evenly into 50 training and 50 test views.
-You can download them from [Baidu Disk](https://pan.baidu.com/s/1rKaKSYjGL23fspb78u_JbQ?pwd=ygmv)
+You can download them from [Baidu Disk](https://pan.baidu.com/s/1rKaKSYjGL23fspb78u_JbQ?pwd=ygmv) or [HugginFace](https://huggingface.co/datasets/gzrer2018/partgs_shapenet)
 
 ## 👀 Visual Results
 
